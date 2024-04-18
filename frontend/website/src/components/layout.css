@@ -1,0 +1,106 @@
+.body{
+    font-size: x-large;
+}
+.navbar-layout {
+    color: #fff; /* Navbar text color */
+    padding: 10px 0;
+    font-size: x-large;
+}
+
+.container-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links-layout {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    margin: 15px;
+}
+
+.nav-links-layout li {
+    margin: 0 10px;
+}
+
+.nav-links-layout li a {
+    color: blue; /* Navigation link text color */
+    text-decoration: none;
+}
+
+.nav-links-layout li a:hover {
+    text-decoration: underline;
+}
+
+.right-corner {
+    height: 50px;
+    display: flex;
+    align-items: center; /* Align buttons vertically */
+}
+
+button {
+    background-color: #fff;
+    color: blue;
+    border: 1px solid;
+    width: max-content; /* Full width */
+    height: 50px;
+    padding: 13px;
+    margin-right: 5px;
+    font-size: x-large;
+    border-radius: 5px;
+}.right-corner button:hover{
+    background-color: blue;
+    color: #fff;
+}
+.popupContent {
+    padding: 20px;
+    border-radius: 80px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden; /* Prevent scrolling */
+  }
+  .blur-background {
+    position: fixed;
+    border-radius: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px); /* Apply blur effect */
+    z-index: 999; /* Ensure it's above other content */
+  }
+  .sticky-div {
+    position: fixed;
+    top: 0; /* Adjust this value to set the distance from the top of the viewport */
+    background-color: #f1f1f1; /* Optional: Add background color */
+    padding: 10px; /* Optional: Add padding for spacing */
+    z-index: 1000; /* Optional: Specify a higher z-index to ensure the div appears above other content */
+  }
+  .nav-link {
+    text-decoration: none;
+    color: #000; /* Adjust the color of the link */
+  }
+  
+  .nav-link.active {
+    text-decoration: underline;
+  }
+select,input{
+    height: 36px;
+    margin: 10px;
+    background-color: #fff;
+    color: blue;
+    border: 1px solid;
+    width: max-content; /* Full width */
+    padding: 6px;
+    margin: 5px;
+    font-size: x-large;
+    border-radius: 5px;
+}  
+label{
+    font-size: x-large;
+}
+

@@ -1,0 +1,10 @@
+.review-main{
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    }
