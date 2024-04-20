@@ -7,7 +7,7 @@ class Data(models.Model):
     position = models.CharField(max_length=100)
     question_text = models.TextField()
     about = models.TextField()
-    overall_difficulty = models.IntegerField(default=1)  # Assuming a scale from 1 to 5 for difficulty
+    overall_difficulty = models.IntegerField(default=10)
 
     def __str__(self):
         return self.name
