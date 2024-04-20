@@ -24,7 +24,6 @@ const SalaryCard = ({ data, conversations }) => {
             <p style={{ marginBottom: "8px"}}>{conversations.question1}</p>
             <h3 style={{ marginBottom: 0}}>{conversations.job2}</h3>
             <p style={{ marginBottom: "8px"}}>{conversations.question2}</p>
-          {/* Add more conversation details as needed */}
         </div>
       )}
     </div>
